@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gift Picker</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Gift Picker</h1>
+  </header>
+
+    <main>
+        <div class="describer">
+            <h2>Do not know what to gift?</h2>
+            <h3>Try this random gift piker and get the idea!</h3>
+        </div>
+
+        <section class="options">
+            <p>I need a gift for...</p>
+            <div class="radios" id="radios"></div>
+            <button id="generate-btn">Generate</button>
+        </section>
+
+        <div class="modal" id="modal">
+            <img src="images/close-btn.png" class="close-btn" id="close-btn" alt="Red X">
+            <div id="modal-inner"></div>
+        </div>
+    </main>
+
+</div>
+<script type="module" src="index.js" ></script>
+</body>
+</html>
